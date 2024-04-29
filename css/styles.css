@@ -117,8 +117,9 @@ display: flex;
 
 /* HERO */
 .main-section-container{
-    padding-top: 188px;
+    padding: 188px 0;
 }
+
 .main-section-head {
     font-weight: 700;
 font-size: 56px;
@@ -127,7 +128,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
 max-width: 496px;
-margin-bottom: 48px;
+margin-bottom: 17px;
 }
 .main-section {
 background: #2e2f42;
