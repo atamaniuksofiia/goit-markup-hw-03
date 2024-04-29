@@ -49,14 +49,13 @@ h1,h2,h3,h4,h5,h6,p {
 .page-nav{
 display: flex;
 align-items: center; 
+padding: 24px 0;
 }
 
 .page-menu{
 display: flex;
 }
-.page-menu-item{
-    padding: 24px 0;
-}
+
 .page-menu-item:not(:last-child){
     margin-right: 40px;
 }
@@ -116,9 +115,6 @@ display: flex;
 }
 
 /* HERO */
-.main-section-container{
-    padding: 188px 0;
-}
 
 .main-section-head {
     font-weight: 700;
@@ -135,6 +131,7 @@ background: #2e2f42;
 max-width: 1440px;
 margin-left: auto;
 margin-right: auto;
+padding: 188px 0 
 }
 .main-section-button {
     font-family: Roboto, sans-serif;
@@ -158,13 +155,12 @@ display: block;
 }
 
 /* Section About*/
-.about-iteam{
+.about-list{
     display: flex; 
     gap: 24px;
-    width:calc((100% - 72px) / 4);
 }
-.head-about{
-    visibility: hidden;
+.about-item{
+    width:calc((100% - 72px) / 4);
 }
 .section-about{
 padding-top: 120px;  
@@ -194,6 +190,7 @@ color: #434455;
 }
 
 /* Section Our Team*/
+
 .our-team-head{
 font-weight: 700;
 font-size: 36px;
@@ -229,7 +226,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .our-team-list{
-    display: flex;
     padding-bottom: 120px;
 }
 .our-team-item:not(:last-child){
