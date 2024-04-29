@@ -303,6 +303,7 @@ padding-right: 879px;
 }
 .page-footer {
     background-color: #2e2f42;;
+    padding: 100px 0;
 }
 .page-logo-footer {
     font-family: Raleway, sans-serif;
@@ -312,9 +313,8 @@ padding-right: 879px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-top: 100px;
-    padding-bottom: 16px;
-    
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .text-logo-footer{
     font-weight: 700;
