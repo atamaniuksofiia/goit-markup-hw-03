@@ -17,14 +17,17 @@ img {
     display: block;
 }
 .container{
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 .section{
-    padding: 120px 0 
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    padding-left: 0px;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -42,11 +45,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .page-header-container{
  display: flex;
- border-bottom: 1px solid #e7e9fc;
 }
 .page-nav{
 display: flex;
-align-items: center;
+align-items: center; 
 }
 
 .page-menu{
@@ -84,6 +86,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    align-items: center;
 }
 .address-menu {
     font-weight: 400;
@@ -94,9 +97,13 @@ display: flex;
 }
 .address-item:not(:last-child){
     margin-right: 40px;
+    margin-left: 332px;
+}
+.address-item{
+    padding: 24px 0;
 }
 .address-link {
-    color:#434455
+    color:#434455;
 }
 .address-link:hover{
     color: #404bbf;
@@ -106,15 +113,11 @@ display: flex;
 }
 .page-address {
     font-style: normal;
-    display: flex;
 }
 
 /* HERO */
 .main-section-container{
-    padding-left: 331px;
-    padding-right: 331px;
     padding-top: 188px;
-    padding-bottom: 292px;
 }
 .main-section-head {
     font-weight: 700;
@@ -129,7 +132,8 @@ margin-bottom: 48px;
 .main-section {
 background: #2e2f42;
 max-width: 1440px;
-padding: 188px 0
+margin-left: auto;
+margin-right: auto;
 }
 .main-section-button {
     font-family: Roboto, sans-serif;
@@ -210,8 +214,8 @@ color: #434455;
 .our-team-section{
     background-color: #f4f4fd;
     max-width: 1440px;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .our-team-item{
     background-color: #FFFFFF;
